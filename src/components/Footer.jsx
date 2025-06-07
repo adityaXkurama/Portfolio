@@ -30,23 +30,19 @@ const Footer = () => {
       const socials = [
         {
           label: 'GitHub',
-          href: 'https://www.github.com/codewithsadee-org'
+          href: 'https://github.com/adityaXkurama'
         },
         {
           label: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/codewithsadee'
+          href: 'https://www.linkedin.com/in/aditya-raybandarkar/'
         },
         {
           label: 'Twitter X',
-          href: 'https://x.com/codewithsadee_'
+          href: 'https://x.com/RaybandarkarA'
         },
         {
           label: 'Instagram',
-          href: 'https://www.instagram.com/codewithsadee'
-        },
-        {
-          label: 'CodePen',
-          href: 'https://codepen.io/codewithsadee'
+          href: 'https://www.instagram.com/__adiiitya_02_/'
         }
       ];
 
