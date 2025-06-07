@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-900 text-zinc-50
+}
+
+.menu-btn{
+  @apply w-10 h-10 bg-zinc-50/10 grid place-items-center rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color] active:scale-95
+}
+
+.navbar{
+  @apply mt-2 absolute top-full right-0 min-w-40 p-2 bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/5 isolate blur-sm opacity-0 invisible transition-[opacity,transform,filter] md:static md:flex md:visible md:opacity-100 md:blur-0 md:scale-100 backdrop-blur-2xl
+}
+
+.navbar.active{
+  @apply opacity-100 visible blur-0 scale-100
+}
+
+.nav-link{
+  @apply grid items-center h-8 px-4 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 transition-colors
+}
+
+.nav-link.active{
+  @apply text-zinc-900 duration-500
+}
+
+.navbar .active-box{
+  @apply bg-zinc-50 rounded-lg -z-10 absolute duration-500 transition-[top,left]
+}
+
+.container{
+  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl
+}
+
+.img-box{
+  @apply bg-zinc-700 overflow-hidden
+}
+
+.img-cover{
+  @apply w-full h-full object-cover
+}
+
+.headline-1{
+  @apply text-5xl leading-tight font-semibold  lg:text-[55px] leading-[1.15] ;
+  
+}
+.headline-1{
+  background: linear-gradient(90deg, red , blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent
+}
+.headline-2{
+  background: linear-gradient(90deg, rgb(255, 255, 255) , rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  @apply text-3xl lg:text-4xl font-semibold lg:leading-tight
+}
+
+.btn{
+  @apply max-w-max h-9 flex items-center rounded-xl gap-2 px-4 font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]
+}
+
+.btn-secondary{
+  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
+}
+
+.btn-primary{
+  @apply h-11  bg-sky-400 text-zinc-950  font-medium hover:bg-sky-300 active:bg-sky-400
+}
+.btn-outline{
+  @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
+}
+
+.section{
+  @apply pt-20 lg:pt-32
+}
+
+.title-1{
+  @apply text-[22px] font-normal
+}
+
+.label{
+  @apply block text-zinc-200 text-sm font-normal mb-2 
+}
+
+.text-field{
+  @apply block w-full outline-none p-3 rounded-xl mb-2 text-sm bg-zinc-800 ring-1 ring-inset ring-transparent transition-shadow focus:ring-sky-400 focus:ring-2
+}
+
