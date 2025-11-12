@@ -7,7 +7,7 @@ const Work = () => {
           imgSrc: '/images/project-6.jpg',
           title: 'Streamify -Chat & Video Calling App',
           tags: ['LEARNING', 'MVC', 'Development'],
-          projectLink: 'https://rectify-codee.vercel.app/'
+          projectLink: 'https://streamify-469w.vercel.app/login'
         },
         {
           imgSrc: '/images/project-3.jpg',
