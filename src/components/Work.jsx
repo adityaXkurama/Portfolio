@@ -4,6 +4,12 @@ import PortfolioCard from './PortfolioCard.jsx';
 const Work = () => {
     const works = [
         {
+          imgSrc: '/images/project-6.jpg',
+          title: 'Streamify -Chat & Video Calling App',
+          tags: ['LEARNING', 'MVC', 'Development'],
+          projectLink: 'https://rectify-codee.vercel.app/'
+        },
+        {
           imgSrc: '/images/project-3.jpg',
           title: 'Rectify-Code | code editor',
           tags: ['API', 'MVC', 'Development'],
@@ -14,12 +20,6 @@ const Work = () => {
           title: 'Nike Landing Page',
           tags: ['API', 'SPA'],
           projectLink: 'https://adityaxkurama.github.io/Nike-Landing-Page/'
-        },
-        {
-          imgSrc: '/images/project-1.jpg',
-          title: 'Advanced MERN AUTH',
-          tags: ['Authentication', 'API'],
-          projectLink: '#'
         },
         {
           imgSrc: '/images/project-4.jpg',
@@ -33,6 +33,12 @@ const Work = () => {
           tags: ['Entertainment', 'Development'],
           projectLink: '#'
         },
+        {
+          imgSrc: '/images/project-1.jpg',
+          title: 'Advanced MERN AUTH',
+          tags: ['Authentication', 'API'],
+          projectLink: '#'
+        }
       ];
   return (
     <section className="section" id="work">
